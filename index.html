@@ -1,11 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
+
 <body>
-    
+
+  <nav id="navbar-example3" class="navbar">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link" href="#item-1">Contact</a>
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link ml-3 my-1" href="#item-1-1">About Me</a>
+        <a class="nav-link ml-3 my-1" href="#item-1-2">Portfolio</a>
+      </nav>
+      <a class="nav-link" href="#item-2">Education</a>
+      <a class="nav-link" href="#item-3">Skills</a>
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link ml-3 my-1" href="#item-3-1">Skills</a>
+        <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+      </nav>
+    </nav>
+  </nav>
+
+  <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+    <h4 id="item-1">Contact</h4>
+    <div class="container1">
+      <div class="card1" id="contactCard">
+        <h1> Scott Morrison</h1>
+        <div class="card bg-dark text-white">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Full Stack Developer</h5>
+            <p class="card-text">scottmorr75@gmail.com</p>
+            <p class="card-text">(801)634-2299</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- <h4 id="item-1">Contact</h4>
+    <div class="container1">
+      <div class="card1" id="contactCard">
+        <h1> Scott Morrison</h1>
+        <div class="card bg-dark text-white">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Full Stack Developer</h5>
+            <p class="card-text">scottmorr75@gmail.com</p>
+            <p class="card-text">(801)634-2299</p>
+          </div>
+        </div> -->
+
+
+
+
+
+
+  <!-- <h5 id="item-1-1">About Me</h5>
+  <div class="container2">
+    <div> -->
+
+
+
+
+      <h5 id="item-1-2">About Me</h5>
+      <div class="container3"></div>
+        
+
+
+
+
+      <h4 id="item-2">Portfolio</h4>
+      <div class="container4"></div>
+
+      <h4 id="item-3">Education</h4>
+      <div class="container4"></div>
+
+
+
+
+      <h4 id="item-3">Skills</h4>
+      <div class="container5"></div>
+
+
+      <footer>
+      <h5 id="item-3-1">footer</h5>
+        </footer>
+     
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      $(document).ready(function () {
+        $('body').scrollspy({ target: '#navbar-example' })
+      });
+
+    </script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>

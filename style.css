@@ -1,0 +1,70 @@
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    font-family: system-ui, sans-serif;
+    background-color: lemonchiffon;
+  } 
+
+
+
+#navbar-example3{
+    background-color: cadetblue;
+}
+.container1 {
+    background-color: lightcoral;
+    height: 600px;
+    width: 1200px;
+    padding: 50px;
+    margin-left: 24px;
+    border: 5px solid black;
+    margin-top: 25px;
+}
+.card1 {
+    border: 1px solid black;
+    height:350px;
+    width: 400Px; margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px;
+    margin-top: 75px;
+    background-color: linen;
+
+}
+/* .container2 {
+    background-color: red;
+    height: 800px;
+    width: 1800px;
+    padding: 150px;
+    border: 5px solidl black;
+
+} */
+.container3 {
+    background-color:linen;
+    height: 500px;
+    width: 1200px;
+    padding: 50px;
+    border: 5px solid black;
+    margin-left: 25px;
+}
+.container4 {
+    background-color: aquamarine;
+    height: 500px;
+    width: 1200px;
+    padding: 50px;
+    border: 5px solid black;
+    margin-left: 25px;
+}
+
+.container5 {
+    background-color: aquamarine;
+    height: 500px;
+    width: 1200px;
+    padding: 50px;
+    border: 5px solid black;
+    margin-left: 25px;
+}
