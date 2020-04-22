@@ -1,70 +1,35 @@
 
-html {
-    scroll-behavior: smooth;
-    position: relative;
+
+
+
+
+
+
+body {
+    background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8zFFSLwVB4pQEZAsTN3Fv6Ebr6LE7y_Y2f4EmWtpFkfqPgSNKcUrzI2rQ3vLimoKdooAQ4gc9TN4NSKxSRocehGHjg7Pb7Xk_xhnRDp77c_XXuC0bPZNT2jHE&disp=emb            ');
+    height: 150px;
+}
+  .container {
+      margin-top: 25px;
+      height: 600px;
+      width: 900px;
+      border: 2px solid black;
   }
-  body {
-    margin: 0;
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    font-family: system-ui, sans-serif;
-    background-color: lemonchiffon;
-  } 
-
-
-
-#navbar-example3{
-    background-color: cadetblue;
-}
-.container1 {
-    background-color: lightcoral;
-    height: 600px;
-    width: 1200px;
-    padding: 50px;
-    margin-left: 24px;
-    border: 5px solid black;
-    margin-top: 25px;
-}
-.card1 {
-    border: 1px solid black;
-    height:350px;
-    width: 400Px; margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px;
-    margin-top: 75px;
-    background-color: linen;
-
-}
-/* .container2 {
-    background-color: red;
-    height: 800px;
-    width: 1800px;
-    padding: 150px;
-    border: 5px solidl black;
-
-} */
-.container3 {
-    background-color:linen;
-    height: 500px;
-    width: 1200px;
-    padding: 50px;
-    border: 5px solid black;
-    margin-left: 25px;
-}
-.container4 {
-    background-color: aquamarine;
-    height: 500px;
-    width: 1200px;
-    padding: 50px;
-    border: 5px solid black;
-    margin-left: 25px;
-}
-
-.container5 {
-    background-color: aquamarine;
-    height: 500px;
-    width: 1200px;
-    padding: 50px;
-    border: 5px solid black;
-    margin-left: 25px;
-}
+  .card {
+      width: 75%;
+      height: 450px;
+      margin-top: 75px;
+      margin-left: 155px;
+  }
+  #myEducation {
+      display: none;
+      background-color: lightcoral;
+  }
+  #myExperience {
+    display: none;
+    background-color: lightseagreen;
+  }
+  #myLanguages {
+    display: none;
+    background-color: maroon;
+  }
