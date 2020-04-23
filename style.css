@@ -2,19 +2,16 @@
 
 
 
-
+.navbar{
+  cursor: pointer;
+}
 
 
 body {
     background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8zFFSLwVB4pQEZAsTN3Fv6Ebr6LE7y_Y2f4EmWtpFkfqPgSNKcUrzI2rQ3vLimoKdooAQ4gc9TN4NSKxSRocehGHjg7Pb7Xk_xhnRDp77c_XXuC0bPZNT2jHE&disp=emb            ');
     height: 150px;
 }
-  /* .container {
-      margin-top: 25px;
-      height: 600px;
-      width: 900px;
-      border: 2px solid black;
-  } */
+  
   .card {
       width: 75%;
       height: 450px;
@@ -22,16 +19,30 @@ body {
       margin-left: 155px;
       display: none;
   }
+  
+  #about-me{
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ")
+
+  }
+  .contact {
+    text-align: center;
+    margin-top: 85px;
+  }
+  
+  
   #myEducation {
       display: none;
-      background-color: lightcoral;
+      background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ")
   }
   #myExperience {
-    display: none;
-    background-color: lightseagreen;
-  }
-  #myLanguages {
-    display: none;
-    background-color: maroon;
+     display: none;
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ") 
+     /* border: 3px solid black;   */
   }
  
+  #myLanguages {
+    display: none;
+     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ") 
+  } 
+ 
+  
