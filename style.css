@@ -9,17 +9,18 @@ body {
     background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8zFFSLwVB4pQEZAsTN3Fv6Ebr6LE7y_Y2f4EmWtpFkfqPgSNKcUrzI2rQ3vLimoKdooAQ4gc9TN4NSKxSRocehGHjg7Pb7Xk_xhnRDp77c_XXuC0bPZNT2jHE&disp=emb            ');
     height: 150px;
 }
-  .container {
+  /* .container {
       margin-top: 25px;
       height: 600px;
       width: 900px;
       border: 2px solid black;
-  }
+  } */
   .card {
       width: 75%;
       height: 450px;
       margin-top: 75px;
       margin-left: 155px;
+      display: none;
   }
   #myEducation {
       display: none;
@@ -33,3 +34,4 @@ body {
     display: none;
     background-color: maroon;
   }
+ 
