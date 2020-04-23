@@ -25,14 +25,13 @@
         Education
       </li>
 
-      <li class="nav-link" id="experience">Experience</a>
+      <!-- <li class="nav-link" id="experience">Experience</a>
+      </li> -->
+
+      <li class="nav-link" id="languages">Skills
       </li>
 
-      <li class="nav-link" id="languages">Languages
-      </li>
-
-      <!-- <li id="right-side" class="nav-item"> -->
-      <li class="nav-link">See My Work
+      <li class="nav-link" id="myPortfolio">See My Work
       </li>
     </ul>
   </nav>
@@ -55,7 +54,7 @@
             <div class="col-md-4">
               <img
                 src="https://avatars1.githubusercontent.com/u/61360215?s=460&u=41467997e9480ce9e7f4b9518b43f913696fe235&v=4"
-                alt="Me" height="385px" width="100%">
+                alt="Me" height="355px" width="100%">
             </div>
             <div class="col-md-4">
               <div class="contact">
@@ -90,124 +89,126 @@
       </div>
     </div>
 
-      
 
-      <div class="card" id="myLanguages">
-        <div class="card-body">
-          <div class="card-title">
-            <h2>Skills</h2>
-            <div class="card-text">
-              <div class="row">
-                <div class="col-md-4"> 
-              i only really know english kkjggy
+
+    <div class="card" id="myLanguages">
+      <div class="card-body">
+        <div class="card-title">
+          <h2>Skills</h2>
+          <div class="card-text">
+            <div class="row">
+              <div class="col-md-4">
+                i only really know english kkjggy
               </div>
-              <div class="col-md-4"> 
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur quia, distinctio harum adipisci commodi? Aliquid eligendi ex minus animi.
+              <div class="col-md-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur quia, distinctio harum adipisci
+                commodi? Aliquid eligendi ex minus animi.
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-
-      <div class="card" id="myWork">
-        <div class="card-body">
-          <div class="card-title">
-            <h2>Portfolio</h2>
-            <div class="card-text">
-              <div class="row">
-                <div class="col-md-4">
-                  <p>i experienced a lot of wonderful things</p>
+    <div class="card" id="myWork">
+      <div class="card-body">
+        <div class="card-title">
+          <h2>Portfolio</h2>
+          <div class="card-text">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="wierd-pic">
+                  <img src=" https://user-images.githubusercontent.com/61360215/77987295-b09f0200-72d6-11ea-888b-d9f66b5b103c.jpg                 "
+                    alt="project" height="305px" width="100%">
+                    <a href="https://scottmorr.github.io/Weather-Dashboard/"> Weather Dashboard</a>
                 </div>
               </div>
+              <div class="col-md-4">
+                <img src="https://github.com/scottmorr/culturally-historic-drunks-1/raw/master/images/Page1Image.jpg "
+                  alt="project" height="305px" width="100%">
+                  <a href="https://scottmorr.github.io/Culturally-Historic-Drunks/"> Only on Weekends</a>
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664323058661298808&th=1718dd00feff9278&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-iB6nGSuk7UQ0DAxSEmwrQ-e8--u-PyW8zNLqgvVZ9UgMhOUHKFDuzjNi6JDCAjzWEcSxuSVBtK4enl5wDDIg9XgUoQVqvtVCT_dO79PGr2VPfFpQEfxdGPdk&disp=emb                              "
+                  alt="project" height="305px" width="100%">
+                  <a href="https://scottmorr.github.io/travel-repository/"> I've been around. Hire Me!</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-   </div>
-
-
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function () {
-
-        // $("#education").on("click", function () {
-        //  $("#about-me").addClass("hide");
-
-        // })
-
-        //  $("#education").on("click", function () {
-        //  $("#education").addClass("show");
-        //  })
+    </div>
+  </div>
+  </div>
+  </div>
 
 
-        // $("#education").removeAttr("class", "hide")
-
-        //       //about me
-        $("#aboutMe").click(function () {
-          console.log($("#myEducation"));
-        });
-
-        $("#aboutMe").click(function () {
-          $("#about-me").show();
-          $("#myEducation").hide();
-          $("#myExperience").hide();
-          $("#myLanguages").hide();
+  </div>
 
 
-        })
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
 
-
-        //education
-        $("#education").click(function () {
-          // $("#currentId").hide();
-          console.log($(".card"));
-        });
-
-        $("#education").click(function () {
-          $("#myEducation").show();
-          $("#about-me").hide();
-          $("#myExperience").hide();
-          $("#myLanguages").hide();
-
-        })
-
-        //experience
-        $("#experience").click(function () {
-          console.log("what");
-        });
-
-        $("#experience").click(function () {
-          console.log("hi");
-          $("#myExperience").show();
-          $("#about-me").hide();
-          $("#myEducation").hide();
-          $("#myLanguages").hide();
-
-        })
-
-
-
-        //languages
-        $("#languages").click(function () {
-          // $("#currentId").hide();
-        });
-
-        $("#languages").click(function () {
-          $("#myLanguages").show();
-          $("#about-me").hide()
-          $("#myEducation").hide()
-          $("#myExperience").hide()
-
-
-        })
-
-
+      //       //about me
+      $("#aboutMe").click(function () {
+        console.log($("#myEducation"));
       });
 
-    </script>
+      $("#aboutMe").click(function () {
+        $("#about-me").show();
+        $("#myEducation").hide();
+        $("#myWork").hide();
+        $("#myLanguages").hide();
+      })
+
+      //education
+      $("#education").click(function () {
+        // $("#currentId").hide();
+        console.log($(".card"));
+      });
+
+      $("#education").click(function () {
+        $("#myEducation").show();
+        $("#about-me").hide();
+        $("#myWork").hide();
+        $("#myLanguages").hide();
+
+      })
+
+      //Portfolio
+      $("#myPortfolio").click(function () {
+      });
+
+      $("#myPortfolio").click(function () {
+        $("#myWork").show();
+        $("#about-me").hide();
+        $("#myEducation").hide();
+        $("#myLanguages").hide();
+
+      })
+
+
+
+      //languages
+      $("#languages").click(function () {
+        // $("#currentId").hide();
+      });
+
+      $("#languages").click(function () {
+        $("#myLanguages").show();
+        $("#about-me").hide()
+        $("#myEducation").hide()
+        $("#myWork").hide()
+
+
+      })
+
+
+    });
+
+  </script>
 
 </body>
 
