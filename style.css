@@ -11,7 +11,9 @@ body {
     background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8zFFSLwVB4pQEZAsTN3Fv6Ebr6LE7y_Y2f4EmWtpFkfqPgSNKcUrzI2rQ3vLimoKdooAQ4gc9TN4NSKxSRocehGHjg7Pb7Xk_xhnRDp77c_XXuC0bPZNT2jHE&disp=emb            ');
     height: 150px;
 }
-  
+  #pic {
+    margin-bottom:105px;
+  }
   .card {
       width: 75%;
       height: 450px;
@@ -24,13 +26,17 @@ body {
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ");
     width: 75%;
     height: 450px;
-    margin-top: 75px;
+    margin-top: 65px;
     margin-left: 55px;
     display: none;
   }
+  #adventure {
+    margin-top: 30px;
+}
   .contact {
     text-align: center;
-    margin-top: 85px;
+    margin-top: 35px;
+    padding-bottom: 25px;
   }
   
   
@@ -54,6 +60,40 @@ body {
   }
  a {
    background-color: linen;
-   padding: 5px;
+   padding-bottom: 5px;
    margin-top: 8px;
+   background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ") 
+
+ }
+ .center {
+    margin-top: 15px; 
+    margin-left: 100px;
+   padding-right: 89px;
+ }
+ h3 {
+   margin: 15px;
+ }
+ #skillsList {
+   Margin-top: 45px;
+   padding-left: 65px;
+   font-size: 20px;
+   
+ }
+ #educationHistory {
+   margin-top: 45px;
+   padding-left: 65px;
+  }
+  #education2 {
+    margin-top: 45px;
+    padding-left: 65px;
+   }
+
+
+
+
+ h5 {
+   padding-top: 20px;
+ }
+ li {
+   padding-top: 10px;
  }
