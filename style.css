@@ -42,17 +42,33 @@ body {
   
   #myEducation {
       display: none;
-      background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ")
-  }
+    width: 75%;
+      background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ");
+      height: 450px;
+    margin-top: 65px;
+    margin-left: 55px;
+    }
   
   #myLanguages {
     display: none;
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ") 
+    width: 75%;
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb "); 
+    height: 450px;
+    margin-top: 65px;
+    margin-left: 55px;
+  
+  
   } 
   
   #myWork {
      display: none;
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ") 
+    width: 75%;
+     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb "); 
+     height: 450px;
+     margin-top: 65px;
+     margin-left: 55px;
+     
+     
      /* border: 3px solid black;   */
   }
   h4 {
@@ -97,3 +113,5 @@ body {
  li {
    padding-top: 10px;
  }
+ 
+ 
