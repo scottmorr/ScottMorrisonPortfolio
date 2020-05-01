@@ -1,6 +1,8 @@
 
 
-
+#navbar-example2 {
+  background-color: lightcyan;
+}
 
 .navbar{
   cursor: pointer;
@@ -12,7 +14,8 @@ body {
     height: 150px;
 }
   #pic {
-    margin-bottom:105px;
+    margin-bottom:705px;
+    border-radius: 25px;
   }
   .card {
       width: 75%;
