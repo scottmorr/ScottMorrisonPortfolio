@@ -11,15 +11,18 @@
 
 body {
     background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8zFFSLwVB4pQEZAsTN3Fv6Ebr6LE7y_Y2f4EmWtpFkfqPgSNKcUrzI2rQ3vLimoKdooAQ4gc9TN4NSKxSRocehGHjg7Pb7Xk_xhnRDp77c_XXuC0bPZNT2jHE&disp=emb            ');
-    height: 150px;
-}
+      height: 60px; 
+       /* overflow: hidden;  */
+ }   
+
+
   #pic {
     margin-bottom:705px;
     border-radius: 25px;
   }
   .card {
       width: 75%;
-      height: 450px;
+      height: 350px;
       margin-top: 75px;
       margin-left: 155px;
       display: none;
@@ -33,6 +36,7 @@ body {
     margin-left: 55px;
     display: none;
   }
+  
   #adventure {
     margin-top: 30px;
 }
@@ -40,6 +44,7 @@ body {
     text-align: center;
     margin-top: 35px;
     padding-bottom: 25px;
+   
   }
   
   
@@ -51,7 +56,8 @@ body {
     margin-top: 65px;
     margin-left: 55px;
     }
-  
+    
+   
   #myLanguages {
     display: none;
     width: 75%;
@@ -72,7 +78,6 @@ body {
      margin-left: 55px;
      
      
-     /* border: 3px solid black;   */
   }
   h4 {
     text-align: center;
