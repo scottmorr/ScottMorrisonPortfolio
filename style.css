@@ -11,39 +11,32 @@
 
 body {
     background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8zFFSLwVB4pQEZAsTN3Fv6Ebr6LE7y_Y2f4EmWtpFkfqPgSNKcUrzI2rQ3vLimoKdooAQ4gc9TN4NSKxSRocehGHjg7Pb7Xk_xhnRDp77c_XXuC0bPZNT2jHE&disp=emb            ');
-      height: 60px; 
-       /* overflow: hidden;  */
+     /* height: 60px;
+     width: 100%; */
+        /* overflow: hidden;   */
  }   
 
 
-  #pic {
-    margin-bottom:705px;
-    border-radius: 25px;
-  }
-  .card {
-      width: 75%;
-      height: 350px;
-      margin-top: 75px;
-      margin-left: 155px;
-      display: none;
-  }
+ 
   
   #about-me{
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ");
     width: 75%;
-    height: 450px;
-    margin-top: 65px;
+   margin-bottom: 25px;
+    margin-top: 25px;
     margin-left: 55px;
     display: none;
   }
-  
+  #myPic {
+    border-radius: 12px;
+  }
   #adventure {
     margin-top: 30px;
 }
   .contact {
     text-align: center;
-    margin-top: 35px;
-    padding-bottom: 25px;
+    /* margin-top: 35px; */
+    padding-bottom: 85px;
    
   }
   
@@ -52,18 +45,28 @@ body {
       display: none;
     width: 75%;
       background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ");
-      height: 450px;
-    margin-top: 65px;
+    margin-bottom: 25px;
+    margin-top: 25px; 
     margin-left: 55px;
-    }
-    
-   
+    padding-bottom: 120px;
+  }
+  
+  /* #educationHistory {
+    margin-left: 15px;
+  } */
+
+/* #education2 {
+  margin-top: 1px;
+} */
+
+
+
   #myLanguages {
     display: none;
     width: 75%;
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb "); 
-    height: 450px;
-    margin-top: 65px;
+   margin-bottom: 25px;
+    margin-top: 25px;
     margin-left: 55px;
   
   
@@ -73,8 +76,8 @@ body {
      display: none;
     width: 75%;
      background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb "); 
-     height: 450px;
-     margin-top: 65px;
+    margin-bottom: 25px;
+     margin-top: 25px;
      margin-left: 55px;
      
      
@@ -87,31 +90,46 @@ body {
    padding-bottom: 5px;
    margin-top: 8px;
    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ") 
-
+ 
+   /* Added border padding and margin-top to 3 images wierd pic drinkmixer travelsite*/
  }
+ #wierdPic {
+    margin-top: 15px; 
+ }
+#drinkMixer{
+/* margin-top: 25px; */
+/* border: 1px solid black; */
+width: 100%;
+padding-top:15px;
+padding-bottom: 15px;
+}
+#travelSite {
+  /* margin-top: 25px; */
+  /* border: 1px solid black; */
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
  .center {
     margin-top: 15px; 
-    margin-left: 100px;
+    margin-left: 70px;
    padding-right: 89px;
+   width: 100%;
  }
+
+
+
  h3 {
    margin: 15px;
  }
  #skillsList {
-   Margin-top: 45px;
+   Margin-top: 15px;
    padding-left: 65px;
    font-size: 20px;
    
  }
- #educationHistory {
-   margin-top: 45px;
-   padding-left: 65px;
-  }
-  #education2 {
-    margin-top: 45px;
-    padding-left: 65px;
-   }
-
+ 
 
 
 
