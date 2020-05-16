@@ -51,13 +51,14 @@ body {
     padding-bottom: 120px;
   }
   
-  /* #educationHistory {
-    margin-left: 15px;
-  } */
+  #educationHistory {
+    padding-top: 15px;
+    margin-bottom: 1px;
+  } 
 
-/* #education2 {
-  margin-top: 1px;
-} */
+ #education2 {
+  padding-top: 15px;
+}
 
 
 
@@ -112,12 +113,16 @@ padding-bottom: 15px;
 }
 
  .center {
-    margin-top: 15px; 
+    margin-bottom: 15px; 
     margin-left: 70px;
    padding-right: 89px;
    width: 100%;
  }
-
+.center2 {
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
 
 
  h3 {
