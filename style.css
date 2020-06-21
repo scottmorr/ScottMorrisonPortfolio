@@ -18,7 +18,9 @@ body {
 
 
  
-  
+  #mainBox { 
+    width: 90%;
+  }
   #about-me{
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664702895221547840&th=171a3676963ea340&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8s-liDWaIfVD44jwsNiYNkQO1mYjH1Qz-uhCp0fSKlvHoMP8kOsIYhWQd4qM2GrS5EdaORaqWoxqRMZPsKAsu8Qaf2MKAXf5k6vGsWV4ZHZS6IgQRDwGvY2Co&disp=emb ");
     width: 75%;
@@ -39,7 +41,9 @@ body {
     padding-bottom: 85px;
    
   }
-  
+  .resume {
+    margin-top: 15px;
+  }
   
   #myEducation {
       display: none;
@@ -104,14 +108,16 @@ width: 100%;
 padding-top:15px;
 padding-bottom: 15px;
 }
-#travelSite {
+#panTreeSite {
   /* margin-top: 25px; */
   /* border: 1px solid black; */
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
+.panTree {
+  background-color: white;
+}
  .center {
     margin-bottom: 15px; 
     margin-left: 70px;
